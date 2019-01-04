@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>yqzhpt</title>
+  
+  
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="https://yqzhpt-cn.github.io/"/>
+  <updated>2019-01-04T12:33:07.968Z</updated>
+  <id>https://yqzhpt-cn.github.io/</id>
+  
+  <author>
+    <name>yqzhpt</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>禁用 Ubuntu 18.04 动画效果</title>
+    <link href="https://yqzhpt-cn.github.io/2019/01/04/aaa2fdfc/"/>
+    <id>https://yqzhpt-cn.github.io/2019/01/04/aaa2fdfc/</id>
+    <published>2019-01-04T12:32:15.000Z</published>
+    <updated>2019-01-04T12:33:07.968Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;ul&gt;
+&lt;li&gt;使用如下代码可以停用 Ubuntu 18.04 的动画效果，加快响应速度。&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;gsettings set org.gnome.desktop.interface enable-animations
+        
+      
+    
+    </summary>
+    
+      <category term="技巧" scheme="https://yqzhpt-cn.github.io/categories/%E6%8A%80%E5%B7%A7/"/>
+    
+    
+      <category term="技巧" scheme="https://yqzhpt-cn.github.io/tags/%E6%8A%80%E5%B7%A7/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>第一篇文章</title>
+    <link href="https://yqzhpt-cn.github.io/2019/01/04/5c2fafc7/"/>
+    <id>https://yqzhpt-cn.github.io/2019/01/04/5c2fafc7/</id>
+    <published>2019-01-04T09:26:16.000Z</published>
+    <updated>2019-01-04T12:33:07.968Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;谨以此文记录搭建过程的辛酸痛楚。&lt;/p&gt;
+
+        
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+</feed>
