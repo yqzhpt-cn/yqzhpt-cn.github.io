@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://yqzhpt-cn.github.io/"/>
-  <updated>2019-01-04T12:33:07.968Z</updated>
+  <updated>2019-01-04T12:46:34.496Z</updated>
   <id>https://yqzhpt-cn.github.io/</id>
   
   <author>
@@ -15,6 +15,34 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Ubuntu 18.04 安装 NVIDIA 驱动</title>
+    <link href="https://yqzhpt-cn.github.io/2019/01/04/cf074504/"/>
+    <id>https://yqzhpt-cn.github.io/2019/01/04/cf074504/</id>
+    <published>2019-01-04T12:42:03.000Z</published>
+    <updated>2019-01-04T12:46:34.496Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;ul&gt;
+&lt;li&gt;运行 &lt;code&gt;ubuntu-drivers devices&lt;/code&gt; 命令，Ubuntu 会自动检查并推荐合适的驱动。&lt;/li&gt;
+&lt;li&gt;然后运行 &lt;code&gt;sudo ubuntu-drivers
+        
+      
+    
+    </summary>
+    
+      <category term="技巧" scheme="https://yqzhpt-cn.github.io/categories/%E6%8A%80%E5%B7%A7/"/>
+    
+    
+      <category term="技巧" scheme="https://yqzhpt-cn.github.io/tags/%E6%8A%80%E5%B7%A7/"/>
+    
+  </entry>
   
   <entry>
     <title>禁用 Ubuntu 18.04 动画效果</title>
