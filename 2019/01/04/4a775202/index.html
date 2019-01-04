@@ -118,7 +118,7 @@
 
 
 
-  <meta name="keywords" content="Hexo, NexT">
+  <meta name="keywords" content="技巧,">
 
 
 
@@ -131,17 +131,18 @@
 
 
 
-<meta name="description" content="谨以此文记录搭建过程的辛酸痛楚。">
+<meta name="description" content="在 /etc/sysctl.conf 的文件末尾添上下面两句。 12net.core.default_qdisc=fqnet.ipv4.tcp_congestion_control=bbr  运行 sysctl -p 重新加载配置。  运行 sysctl net.ipv4.tcp_available_congestion_control，查看输出中是否有 bbr，如果有则说明开启成功。">
+<meta name="keywords" content="技巧">
 <meta property="og:type" content="article">
-<meta property="og:title" content="第一篇文章">
-<meta property="og:url" content="https://yqzhpt-cn.github.io/2019/01/04/5c2fafc7/index.html">
+<meta property="og:title" content="Ubuntu 18.04 开启 BBR">
+<meta property="og:url" content="https://yqzhpt-cn.github.io/2019/01/04/4a775202/index.html">
 <meta property="og:site_name" content="yqzhpt">
-<meta property="og:description" content="谨以此文记录搭建过程的辛酸痛楚。">
+<meta property="og:description" content="在 /etc/sysctl.conf 的文件末尾添上下面两句。 12net.core.default_qdisc=fqnet.ipv4.tcp_congestion_control=bbr  运行 sysctl -p 重新加载配置。  运行 sysctl net.ipv4.tcp_available_congestion_control，查看输出中是否有 bbr，如果有则说明开启成功。">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2019-01-04T12:33:07.968Z">
+<meta property="og:updated_time" content="2019-01-04T13:01:43.947Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="第一篇文章">
-<meta name="twitter:description" content="谨以此文记录搭建过程的辛酸痛楚。">
+<meta name="twitter:title" content="Ubuntu 18.04 开启 BBR">
+<meta name="twitter:description" content="在 /etc/sysctl.conf 的文件末尾添上下面两句。 12net.core.default_qdisc=fqnet.ipv4.tcp_congestion_control=bbr  运行 sysctl -p 重新加载配置。  运行 sysctl net.ipv4.tcp_available_congestion_control，查看输出中是否有 bbr，如果有则说明开启成功。">
 
 
 
@@ -171,13 +172,13 @@
 
 
 
-  <link rel="canonical" href="https://yqzhpt-cn.github.io/2019/01/04/5c2fafc7/">
+  <link rel="canonical" href="https://yqzhpt-cn.github.io/2019/01/04/4a775202/">
 
 
 
 
 
-  <title>第一篇文章 | yqzhpt</title>
+  <title>Ubuntu 18.04 开启 BBR | yqzhpt</title>
   
 
 
@@ -324,7 +325,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="https://yqzhpt-cn.github.io/2019/01/04/5c2fafc7/">
+    <link itemprop="mainEntityOfPage" href="https://yqzhpt-cn.github.io/2019/01/04/4a775202/">
 
     <span hidden itemprop="author" itemscope="" itemtype="http://schema.org/Person">
       <meta itemprop="name" content="yqzhpt">
@@ -341,7 +342,7 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">第一篇文章</h1>
+          <h1 class="post-title" itemprop="name headline">Ubuntu 18.04 开启 BBR</h1>
         
 
         <div class="post-meta">
@@ -353,7 +354,7 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2019-01-04T17:26:16+08:00">
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2019-01-04T20:58:00+08:00">
                 2019-01-04
               </time>
             
@@ -363,6 +364,28 @@
             
           </span>
 
+          
+            <span class="post-category">
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope="" itemtype="http://schema.org/Thing">
+                  <a href="/categories/技巧/" itemprop="url" rel="index">
+                    <span itemprop="name">技巧</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
           
 
           
@@ -391,7 +414,14 @@
       
 
       
-        <p>谨以此文记录搭建过程的辛酸痛楚。</p>
+        <ul>
+<li><p>在 <strong>/etc/sysctl.conf</strong> 的文件末尾添上下面两句。</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">net.core.default_qdisc=fq</span><br><span class="line">net.ipv4.tcp_congestion_control=bbr</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>运行 <code>sysctl -p</code> 重新加载配置。</p>
+</li>
+<li>运行 <code>sysctl net.ipv4.tcp_available_congestion_control</code>，查看输出中是否有 <strong>bbr</strong>，如果有则说明开启成功。</li>
+</ul>
 
       
     </div>
@@ -407,6 +437,12 @@
 
     <footer class="post-footer">
       
+        <div class="post-tags">
+          
+            <a href="/tags/技巧/" rel="tag"># 技巧</a>
+          
+        </div>
+      
 
       
       
@@ -416,15 +452,15 @@
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
+              <a href="/2019/01/04/15fb1ff1/" rel="next" title="Ubuntu 18.04 禁用 gnome-shell 粗体">
+                <i class="fa fa-chevron-left"></i> Ubuntu 18.04 禁用 gnome-shell 粗体
+              </a>
+            
           </div>
 
           <span class="post-nav-divider"></span>
 
           <div class="post-nav-prev post-nav-item">
-            
-              <a href="/2019/01/04/aaa2fdfc/" rel="prev" title="禁用 Ubuntu 18.04 动画效果">
-                禁用 Ubuntu 18.04 动画效果 <i class="fa fa-chevron-right"></i>
-              </a>
             
           </div>
         </div>
