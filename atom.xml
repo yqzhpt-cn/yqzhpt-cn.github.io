@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://yqzhpt-cn.github.io/"/>
-  <updated>2019-01-04T12:46:34.496Z</updated>
+  <updated>2019-01-04T12:54:45.744Z</updated>
   <id>https://yqzhpt-cn.github.io/</id>
   
   <author>
@@ -17,11 +17,39 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>Ubuntu 18.04 禁用 gnome-shell 粗体</title>
+    <link href="https://yqzhpt-cn.github.io/2019/01/04/15fb1ff1/"/>
+    <id>https://yqzhpt-cn.github.io/2019/01/04/15fb1ff1/</id>
+    <published>2019-01-04T12:51:18.000Z</published>
+    <updated>2019-01-04T12:54:45.744Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;ul&gt;
+&lt;li&gt;&lt;code&gt;sudo apt install -y dconf-editor&lt;/code&gt; 安装 &lt;strong&gt;dconf-editor&lt;/strong&gt;。&lt;/li&gt;
+&lt;li&gt;定位到
+        
+      
+    
+    </summary>
+    
+      <category term="技巧" scheme="https://yqzhpt-cn.github.io/categories/%E6%8A%80%E5%B7%A7/"/>
+    
+    
+      <category term="技巧" scheme="https://yqzhpt-cn.github.io/tags/%E6%8A%80%E5%B7%A7/"/>
+    
+  </entry>
+  
+  <entry>
     <title>Ubuntu 18.04 安装 NVIDIA 驱动</title>
     <link href="https://yqzhpt-cn.github.io/2019/01/04/cf074504/"/>
     <id>https://yqzhpt-cn.github.io/2019/01/04/cf074504/</id>
     <published>2019-01-04T12:42:03.000Z</published>
-    <updated>2019-01-04T12:46:34.496Z</updated>
+    <updated>2019-01-04T12:46:53.673Z</updated>
     
     <summary type="html">
     
